@@ -1,0 +1,17 @@
+body {
+  color: #ffffff; }
+
+.main {
+  font-size: 23rpx;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #3c89bd; }
+
+.footer, .box {
+  color: #3c89bd; }
+
+/*# sourceMappingURL=global.wxss.map */
