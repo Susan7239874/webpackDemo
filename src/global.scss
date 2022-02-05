@@ -1,0 +1,29 @@
+$red: #ffffff;
+$white:#ffffff;
+$blue:#3c89bd;
+$font-size:23rpx;
+@mixin flexlayout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin boxsize{
+  width:100px;
+  height:100px;
+  background:$blue;
+}
+body{
+  color:$white;
+}
+.main{
+  font-size:$font-size;
+  color:$white;
+  @include flexlayout;
+  @include boxsize;
+}
+.footer{
+  color:$blue;
+}
+.box{
+  @extend .footer;
+}
